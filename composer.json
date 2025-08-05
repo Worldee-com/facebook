@@ -29,7 +29,7 @@
   ],
   "require": {
     "php": ">=7.2",
-    "nickdnk/graph-sdk": "dev-master",
+    "nickdnk/graph-sdk": "7.0.1",
     "nette/di": "^3.0.0",
     "nette/http": "^3.0.1"
   },
