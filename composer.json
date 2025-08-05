@@ -22,11 +22,14 @@
     }
   ],
   "repositories": [
-    { "type": "git", "url": "https://github.com/holyfork/facebook-graph-sdk" }
+    {
+      "type": "vcs",
+      "url": "https://github.com/Worldee-com/graph-sdk"
+    }
   ],
   "require": {
     "php": ">=7.2",
-    "nickdnk/graph-sdk": "^7.0.1",
+    "nickdnk/graph-sdk": "dev-master",
     "nette/di": "^3.0.0",
     "nette/http": "^3.0.1"
   },
