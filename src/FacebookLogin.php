@@ -49,7 +49,7 @@ class FacebookLogin
 	 *
 	 * @throws FacebookLoginException
 	 */
-	public function getAccessToken(string $link = null): AccessToken
+	public function getAccessToken(?string $link = null): AccessToken
 	{
 		$helper = $this->facebook->getRedirectLoginHelper();
 
